@@ -1,15 +1,17 @@
 # XÇin Gizlilik Politikası / Privacy Policy
 
-**Son güncelleme / Last updated:** 25 Ekim 2026
+**Son güncelleme / Last updated:** 28 Ekim 2026
 
 ---
 
 ## Türkçe
 
-XÇin, Chrome tarayıcısı için geliştirilmiş bir eklentidir. Amacı, X (Twitter)
-sayfalarında otomatik çeviri özelliğindeki seçilen dillerden çevrilen gönderi
-ve yorumları (alıntılanan gönderiler dahil) kullanıcının tercihine göre
-gizlemektir. Arayüz Türkçe ve İngilizce olarak kullanılabilir.
+XÇin (mağaza adı: "XÇin — Translation Blocker for X"), Chrome tarayıcısı için
+geliştirilmiş bir eklentidir. Amacı, X (Twitter) sayfalarında otomatik çeviri
+özelliğindeki seçilen dillerden çevrilen gönderi ve yorumları (alıntılanan
+gönderiler dahil) kullanıcının tercihine göre gizlemektir. Eklenti arayüzü
+Türkçe ve İngilizce olarak kullanılabilir; X arayüz dili ne olursa olsun
+çalışır.
 
 ### Veri Toplama
 
@@ -27,6 +29,7 @@ eşitleme deposunu (`chrome.storage.sync`) kullanır:
 
 - Engellenen diller listesi
 - "Yorumlar modu" açık/kapalı durumu
+- Eklentinin aktiflik (açık/kapalı) durumu
 - Arayüz dili (Türkçe/İngilizce) tercihi
 
 Bu ayarlar yalnızca kullanıcının kendi tarayıcısında (ve kullanıcının kendi
@@ -36,7 +39,8 @@ erişemez.**
 ### Ağ İletişimi
 
 Eklenti **hiçbir ağ isteği yapmaz**. Hiçbir veri bir sunucuya, üçüncü tarafa
-veya geliştiriciye gönderilmez. Çalışması için internet bağlantısı gerekmez.
+veya geliştiriciye gönderilmez. Eklenti kendi adına internet bağlantısı
+kullanmaz (yalnızca X sayfasının kendisi internet gerektirir).
 
 ### Üçüncü Taraflarla Paylaşım
 
@@ -60,10 +64,12 @@ Gizlilikle ilgili sorularınız için eklentinin Chrome Web Mağazası sayfasın
 
 ## English
 
-XÇin is an extension for the Chrome browser. Its purpose is to hide posts and
-comments (including quoted posts) translated from selected languages in the
-auto-translate feature on X (Twitter) pages, according to the user's
-preference. The interface is available in Turkish and English.
+XÇin (store name: "XÇin — Translation Blocker for X") is an extension for the
+Chrome browser. Its purpose is to hide posts and comments (including quoted
+posts) translated from selected languages in the auto-translate feature on
+X (Twitter) pages, according to the user's preference. The extension UI is
+available in Turkish and English and works regardless of the X interface
+language.
 
 ### Data Collection
 
@@ -81,6 +87,7 @@ The extension only uses the browser's built-in synced storage
 
 - List of blocked languages
 - "Comments mode" on/off state
+- Extension active (on/off) state
 - Interface language (Turkish/English) preference
 
 These settings are stored only in the user's own browser (and in syncing
@@ -90,8 +97,8 @@ data.**
 ### Network Communication
 
 The extension makes **no network requests**. No data is sent to any server,
-third party or the developer. It does not require an internet connection to
-work.
+third party or the developer. The extension itself does not use any internet
+connection (only the X page itself requires internet).
 
 ### Third-Party Sharing
 
